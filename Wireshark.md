@@ -16,9 +16,9 @@
 ### *Un résumé des infos que l'on retrouve dans la fenêtre "détail du paquet" à la ligne "Internet Control Protocol" (c'est un test de ping)*
 
 ## 5. Le paquet N°8 est-il une question ou une réponse ? et quel est le paquet correspondant (la question, si c'est une réponse ou la réponse, si c'est une question) ?
-### *Le paquet n°8 est une réponse (reply), on peut le voir dans la fenêtre "détail du paquet" à la ligne "Internet Control Protocol"*
-### *La question (request) d'est-à-dire le paquet correspondant est à ligne 7*
-### *On peut aussi voir les questions qui correrspondent aux réponses avec les lèches dans la 1ere colonne.*
+### - *Le paquet n°8 est une réponse (reply), on peut le voir dans la fenêtre "détail du paquet" à la ligne "Internet Control Protocol"*
+### - *La question (request) d'est-à-dire le paquet correspondant est à ligne 7*
+### - *On peut aussi voir les questions qui correrspondent aux réponses avec les lèches dans la 1ere colonne.*
 
 
 
