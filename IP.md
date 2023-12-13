@@ -9,7 +9,7 @@
 | La version du protocole | 4 |
 | L'IHL | 5 |
 | Le service | 00 |
-| La longueur totale du datagramme IP (en décimal, pas en hexadécimal) | 01 bb => 1 187 |
+| La longueur totale du datagramme IP (en décimal, pas en hexadécimal) | 01 bb => 443 |
 | L'identifiant affecté au datagramme | da c2 |
 | Les flags | 40 |
 | Les offsets | 00 |
