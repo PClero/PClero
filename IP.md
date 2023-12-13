@@ -11,10 +11,10 @@
 | Le service | 00 |
 | La longueur totale du datagramme IP (en décimal, pas en hexadécimal) | 01 bb => 1 187 |
 | L'identifiant affecté au datagramme | da c2 |
-| Les flags | da |
-| Les offsets | c2 |
-| La valeur du champ | TTL 40 |
-| Le contenu du champ protocole. En déduire le protocole encapsulé dans le paquet IP | 00 = reserved |
-| Le checksum | 3c 06 |
-| L'adresse IP source (en format décimal) | fc 9d d5 e4 => 252.157.213.228 |
-| L'adresse IP de destination (en format décimal) | 00 2a 3e 93 => 0.42.62.147 |
+| Les flags | 40 |
+| Les offsets | 00 |
+| La valeur du champ TTL | 3c |
+| Le contenu du champ protocole. En déduire le protocole encapsulé dans le paquet IP | 06 = TCP |
+| Le checksum | fc 9d |
+| L'adresse IP source (en format décimal) |  d5 e4 00 2a => 213.228.0.42 |
+| L'adresse IP de destination (en format décimal) |  3e 93 51 3b => 62.147.81.59 |
