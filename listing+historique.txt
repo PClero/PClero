@@ -1,0 +1,72 @@
+﻿
+
+    Répertoire : C:\EvenFolder
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----        21/12/2023     10:26              0 file1                        
+-a----        21/12/2023     10:26              0 file3                        
+-a----        21/12/2023     10:26              0 file5                        
+-a----        21/12/2023     10:26              0 file7                        
+-a----        21/12/2023     10:26              0 file9                        
+
+
+    Répertoire : C:\OddFolder
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----        21/12/2023     10:26              0 file10                       
+-a----        21/12/2023     10:26              0 file2                        
+-a----        21/12/2023     10:26              0 file4                        
+-a----        21/12/2023     10:26              0 file6                        
+-a----        21/12/2023     10:26              0 file8                        
+
+
+
+
+  Id CommandLine                                                               
+  -- -----------                                                               
+   1 Get-Location                                                              
+   2 Get-Host                                                                  
+   3 Set-Location -Path C:\                                                    
+   4 Get-Location                                                              
+   5 New-Item -Path Temp -ItemType Directory                                   
+   6 Set-Location Temp                                                         
+   7 New-Item -Path Rep1 -ItemType Directory                                   
+   8 New-Item -Path Rep2 -ItemType Directory                                   
+   9 Set-Location C:\Temp                                                      
+  10 Get-ChildItem                                                             
+  11 New-Item -Path file1 -ItemType File                                       
+  12 New-Item -Path file2 -ItemType File...                                    
+  13 Get-ChildItem                                                             
+  14 Move-Item -Path file1 -Destination Rep1                                   
+  15 Get-ChildItem                                                             
+  16 Get-ChildItem -Path Rep1                                                  
+  17 Get-ChildItem -Recurse                                                    
+  18 Get-ChildItem -Recurse                                                    
+  19 Move-Item -Path Rep1 -Destination Rep2                                    
+  20  Get-ChildItem -recurse                                                   
+  21 Remove-Item -Path file3                                                   
+  22 Remove-Item Rep2 -Recurse                                                 
+  23 clear                                                                     
+  24 Set-Location -Path C:\...                                                 
+  25 New-Item -ItemType Directory -Path c:\EvenFolder                          
+  26 New-Item -ItemType Directory -Path c:\OddFolder                           
+  27 Move-Item -Path file1 -Destination c:\EvenFolder                          
+  28 Move-Item -Path c:\foldertest1\file1 -Destination c:\EvenFolder           
+  29 Move-Item -Path c:\foldertest1\file3 -Destination c:\EvenFolder           
+  30 Move-Item -Path c:\foldertest1\file5 -Destination c:\EvenFolder           
+  31 Get-ChildItem c:\EvenFolder                                               
+  32 Move-Item -Path c:\foldertest2\file1 -Destination c:\OddFolder            
+  33 Move-Item -Path c:\foldertest1\file2 -Destination c:\OddFolder            
+  34 Move-Item -Path c:\foldertest1\file4 -Destination c:\OddFolder            
+  35 Move-Item -Path c:\foldertest2\file7 -Destination c:\EvenFolder           
+  36 Move-Item -Path c:\foldertest2\file9 -Destination c:\EvenFolder           
+  37 Move-Item -Path c:\foldertest2\file6 -Destination c:\OddFolder            
+  38 Move-Item -Path c:\foldertest2\file8 -Destination c:\OddFolder            
+  39 Move-Item -Path c:\foldertest2\file10 -Destination c:\OddFolder           
+  40 Get-ChildItem c:\EvenFolder                                               
+  41 Get-ChildItem c:\OddFloder                                                
+  42 Get-ChildItem c:\OddFolder                                                
