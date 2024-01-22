@@ -5,7 +5,7 @@
 
 # **EXPÉRIENCE PROFESSIONNELLE**
 
-**1. 2002 : Vacataire - Institut National Polytechnique (INP) - Labège (31)**
+**1. 2023 : Vacataire - Institut National Polytechnique (INP) - Labège (31)**
 
 - ***Saisie (traitement et enregistrement) des dossiers d’inscription des étudiants
 Manutention, Établissement des inventaires
