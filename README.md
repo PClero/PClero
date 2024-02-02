@@ -1,6 +1,6 @@
 # **Curriculum Vitae Pierre Cléro**
 
-![photoID](https://media.licdn.com/dms/image/C5603AQHLkkoMoyMxVQ/profile-displayphoto-shrink_800_800/0/1544094925001?e=1706745600&v=beta&t=CvB0zte3TT61OpmsslgvYHW3Xl9YMbt3WU6bBgWJu4c)
+![photoID](https://media.licdn.com/dms/image/C5603AQHLkkoMoyMxVQ/profile-displayphoto-shrink_800_800/0/1544094925001?e=1712188800&v=beta&t=HoUsjdBQVAiq3Y-yOrGEhJoAKuhlIT5qBZ2H3Qu66-Y)
 
 
 # **EXPÉRIENCE PROFESSIONNELLE**
